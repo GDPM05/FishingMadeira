@@ -1,0 +1,10 @@
+vendor/*
+!vendor/phpunit
+build
+writable/
+
+vendor/
+
+node_modules/
+
+.env
