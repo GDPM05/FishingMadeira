@@ -1,0 +1,60 @@
+
+footer {
+    background-color: #0077FF;
+    max-height: 324px;
+    position: fixed;
+    bottom: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.middle-row .container-fluid {
+    display: flex;
+}
+
+.middle-row .container-fluid .container {
+    display: block;
+    text-align: center;
+}
+
+.middle-row .container-fluid .container:first-of-type{
+    margin-right: 30%;
+    line-height: 30px;
+}
+
+.top-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.division {
+    height: 1px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.top-row div {
+    text-align: center;
+    padding: 5px;
+}
+
+.top-row div p {
+    padding-top: 2%;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-row div {
+    text-align: center;
+}

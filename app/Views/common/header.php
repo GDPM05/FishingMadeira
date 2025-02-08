@@ -22,15 +22,20 @@
     <!-- Font Awesome (Opcional) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-    <!-- Estilos Customizados (Opcional) -->
-    <link rel="stylesheet" href="styles.css">
-
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
     <!-- Bootstrap JavaScript (Popper.js incluído) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Script Customizado (Opcional) -->
-    <script src="script.js" defer></script>
+    <?php foreach($css_file_array as $path): ?>
+        <link rel="stylesheet" href="<?php echo base_url($path); ?>">
+    <?php endforeach; ?>
+
+    <!-- JS File Loading -->
+    <?php foreach($js_file_array as $path): ?>
+        <script src="<?php echo base_url($path); ?>"></script>
+    <?php endforeach; ?>
+
 </head>
+<body>
