@@ -1,6 +1,10 @@
 vendor/*
 !vendor/phpunit
 build
+writable/debugbar/*
+writable/logs/*
+writable/session/*
+writable/cache/*
 
 vendor/
 
