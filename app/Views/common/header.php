@@ -10,7 +10,7 @@
         <meta name="robots" content="index, follow">
 
         <!-- Título da Página -->
-        <title>FishingMadeira</title>
+        <title><?php echo $title; ?></title>
 
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="favicon.png">
