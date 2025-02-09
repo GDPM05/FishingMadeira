@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <!-- Meta Tags Essenciais -->
     <meta charset="UTF-8">
@@ -8,7 +10,7 @@
     <meta name="robots" content="index, follow">
 
     <!-- Título da Página -->
-    <title>FishingMadeira</title>
+    <title>Fishing Madeira</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png">
