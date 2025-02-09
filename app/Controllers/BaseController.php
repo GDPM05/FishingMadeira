@@ -21,6 +21,7 @@ abstract class BaseController extends Controller {
         $this->session = service('session');
         $this->data = [
             "environment" => getenv("CI_ENVIRONMENT"),
+            "title" => "Fishing Madeira",
             "css_file_array" => [
                 "public/resources/css/default.css"
                 // "public/resources/css/-----.css"
