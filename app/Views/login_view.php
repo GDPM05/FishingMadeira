@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="background">
     <div class="overlay"></div>
     <div class="central-container">
@@ -37,5 +38,11 @@
                 </div>
             </div>
         </div>
+=======
+<div>
+    <div>
+        <div></div>
+        <div></div>
+>>>>>>> f2a2728d8538ecbe0d40957c2e084f9cca40add6
     </div>
 </div>
